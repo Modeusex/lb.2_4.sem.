@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Школа спидкубинга "CUBIX"</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CUBIX</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-underline">
+            <form method="GET" action="structure">
+              <button style="border: 0; background: none" type="submit">
+                <a class="nav-link">Главная</a>
+              </button>
+            </form>
+            <form method="GET" action="teachers">
+              <button style="border: 0; background: none" type="submit">
+                <a class="nav-link">Преподаватели</a>
+              </button>
+            </form>
+            <form method="GET" action="programs">
+              <button style="border: 0; background: none" type="submit">
+                <a class="nav-link">Программы обучения</a>
+              </button>
+            </form>
+            <form method="GET" action="feedback">
+              <button style="border: 0; background: none" type="submit">
+                <a class="nav-link">Отзывы</a>
+              </button>
+            </form>
+            <form method="GET" action="contact">
+              <button style="border: 0; background: none"  type="submit">
+                <a class="nav-link">Связаться с нами</a>
+              </button>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color2">Какие программы мы предлагаем?</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="programms">
+      <div class="container-fluid">
+        <div class="row justify-content-md-center ">
+          <div class="col col-lg-6 pr-1">
+            <h3 class="text-center text-uppercase color2">Обучение сборки кубика Рубика с нуля</h3>
+            <h5 class="text-center">Программа для обучения сборки с нуля.</h5>
+            <h6 class="text-center">Занятия с преподавателем онлайн из любой точки мира</h6>
+            <h6 class="text-center">Теория, практика и сборки</h6>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-6 pr-2">
+            <h3 class="text-center text-uppercase color2">Ускорение новичкового метода</h3>
+            <h5 class="text-center">Программа для ребят которые уже умеют собирать, но хотят быстрее.</h5>
+            <h6 class="text-center">Занятия с преподавателем онлайн из любой точки мира</h6>
+            <h6 class="text-center">Теория, практика и сборки</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a class="btn btn-extra btn-lg text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться</a>
+          </div>
+        </div>
+      </div>
+      <!-- Модальное окно -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Запишитесь на пробное занятие</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Адрес электронной почты</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="floatingPhone" placeholder="+7(___)_____-__">
+                <label for="floatingPhone">Номер телефона</label>
+              </div>
+              <div class="form-floating" mb-3>
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Выберите направление подготовки</option>
+                  <option value="1">Обучние с нуля</option>
+                  <option value="2">Ускорение базового метода</option>
+                  <option value="3">Профессиональный метод сборки</option>
+                  <option value="4">Другие кубики Рубика</option>
+                </select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
