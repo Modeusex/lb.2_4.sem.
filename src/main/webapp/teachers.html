@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Школа спидкубинга "CUBIX"</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CUBIX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav nav-underline">
+                    <form method="GET" action="structure">
+                        <button style="border: 0; background: none" type="submit">
+                            <a class="nav-link">Главная</a>
+                        </button>
+                    </form>
+                    <form method="GET" action="teachers">
+                        <button style="border: 0; background: none" type="submit">
+                            <a class="nav-link">Преподаватели</a>
+                        </button>
+                    </form>
+                    <form method="GET" action="programs">
+                        <button style="border: 0; background: none" type="submit">
+                            <a class="nav-link">Программы обучения</a>
+                        </button>
+                    </form>
+                    <form method="GET" action="feedback">
+                        <button style="border: 0; background: none" type="submit">
+                            <a class="nav-link">Отзывы</a>
+                        </button>
+                    </form>
+                    <form method="GET" action="contact">
+                        <button style="border: 0; background: none"  type="submit">
+                            <a class="nav-link">Связаться с нами</a>
+                        </button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-white">Наши преподаватели научат тому, что казалось невозможным!</h1>
+                    <a href="#footer" class="btn btn-extra btn-lg text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться</a>
+                </div>
+            </div>
+
+    </header>
+    <section class="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1">Наши преподаватели</h2>
+                    <div class="row mb-5">
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/p_1.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Мария Анатольевна</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Преподаватель начального уровня</h6>
+                                    <p class="card-text">Персональный подход к каждому ученику</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/p_2.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Андерй Мозговой</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Преподаватель ускоренных методов</h6>
+                                    <p class="card-text">Доходчивая информация для детей и взрослых</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/p_3.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Игорь Лёвин</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Преподаватель различных других кубиков Рубика</h6>
+                                    <p class="card-text">Покажет и научит сколько много различных кубиков Рубика</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn btn-extra btn-lg text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal">Записаться</a>
+                </div>
+            </div>
+        </div>
+        <!-- Модальное окно -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Запишитесь на пробное занятие</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Адрес электронной почты</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="floatingPhone" placeholder="+7(___)_____-__">
+                            <label for="floatingPhone">Номер телефона</label>
+                        </div>
+                        <div class="form-floating" mb-3>
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option selected>Выберите направление подготовки</option>
+                                <option value="1">Обучние с нуля</option>
+                                <option value="2">Ускорение базового метода</option>
+                                <option value="3">Профессиональный метод сборки</option>
+                                <option value="4">Другие кубики Рубика</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

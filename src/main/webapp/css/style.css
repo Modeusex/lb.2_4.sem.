@@ -1,0 +1,117 @@
+:root {
+    --color1: #cc91bb;
+    --color2: #42253d;
+}
+header, footer, section {
+    padding: 50px 0;
+}
+header{
+    padding: 100px 0;
+}
+header, footer {
+    background: linear-gradient(to right,  var(--color2) 0%,var(--color1) 100%);
+
+}
+.btn-extra{
+    display: block;
+    max-width: 200px;
+    margin: 30px auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+}
+.btn-extra:hover{
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+.navbar-brand {
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    color: var(--color1);
+}
+.bg2{
+    color: var(--color2);
+}
+
+.about{
+    background-color: #e2e3e5;
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.my-circle{
+    margin: 0 auto 15px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid var(--color2);
+    border-radius: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+.forwhom h2{
+    padding-bottom: 40px;
+}
+.forwhom h5{
+    padding: 50px;
+    border: 3px solid var(--color2);
+}
+.about h2{
+    padding-bottom: 40px;
+}
+.cards h2{
+    padding-bottom: 40px;
+}
+.feedback h2{
+    padding-bottom: 40px;
+}
+.card-img-top{
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+.pr-1{
+    background-color: #e2e3e5;
+    padding: 15px;
+}
+.pr-2{
+    background-color: var(--color1);
+    padding: 15px;
+    margin-top: 40px;
+}
+.mg{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.nav-link{
+    color: var(--color1);
+}
+.btn_nav_l_st {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
